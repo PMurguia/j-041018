@@ -212,9 +212,9 @@ namespace j_041018_arrays
             //for (int i = 0; i < edades.Length; i++)
             //{
 
-            //    Random random = new Random();
-            //    int contEdades = random.Next(18,35);
-            //    edades[i] = random.Next(18, 35);
+            //Random random = new Random();
+            //int contEdades = random.Next(18, 35);
+            //edades[i] = random.Next(18, 35);
 
 
             //}
@@ -228,10 +228,46 @@ namespace j_041018_arrays
             //y  el producto de los componentes de posición impar. Los valores se generarán aleatoriamente entre 1 y 100.
 
 
+            //int[] edades = new int[20];
+            //int pares = 0;
+            //int impares = 1;
+
+            //Random contEdades = new Random();
+
+            //for (int i = 0; i < edades.Length; i++)
+            //{
+            //    edades[i] = contEdades.Next(1, 101);
+            //    if (edades[i] % 2 == 0)
+            //    {
+            //        pares = pares + edades[i];
+            //    }
+            //    else
+            //    {
+            //        impares = impares * edades[i];
+            //    }
+            //    Console.WriteLine(edades[i] + "\t" + (pares) + "\t\t || " + (impares) );
+
+            //}
+            //Console.WriteLine();
+            //Console.ReadLine();
+
             
 
 
+            //Cargar una tabla de 20 elementos donde cada elemento almacenará un valor entre 1 y 9 (genéralos de forma aleatoria) y escribir,
+            //además del contenido de la tabla, la cantidad de 1, cantidad de 2, cantidad de 3…, cantidad de 9 almacenados en ella.
 
+            int[] elem = new int[20];
+            int[] elemNum = new int[9];
+            Random elemRandom = new Random();
+
+            for (int i = 0; i < elem.Length; i++)
+            {
+                Console.WriteLine(elem[i] = elemRandom.Next(1, 9));
+            }
+            
+            
+            Console.ReadLine();
 
         }
     }
