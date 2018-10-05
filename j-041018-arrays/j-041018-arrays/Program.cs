@@ -126,7 +126,111 @@ namespace j_041018_arrays
             //Console.ReadLine();
 
 
-            //
+            /**Crear un array de 11 ints. Usar un for para asignar 0 a cada posición.
+             * Pedir al usuario que introduzca valores entre 0 y 10.
+             * Cada vez que introduzca un dígito, añadir uno al valor en esa posición del array. 
+             * Si por ejemplo introduce un 3, sumar uno a la posición 3. Mostrar en pantalla los valores. 
+             * Si introduce un número mayor que 10, decir que ese número es incorrecto. 
+             * Si introduce un número negativo, mostrar en pantalla el número de cada posición y el valor que contiene.
+             **/
+
+            //int numCeros;
+            //int[] ceros = new int[11];
+            //for (int i = 0; i < ceros.Length; i++)
+            //{
+            //    ceros[i] = 0;
+            //}
+
+
+            //do
+            //{
+            //    Console.WriteLine("introduce un número. ");
+            //    numCeros = Int32.Parse(Console.ReadLine());
+            //    if (numCeros >= 0 && numCeros <= 10)
+            //    {
+            //    ceros[numCeros]++;
+
+            //    }
+            //    else if (numCeros > 10)
+            //    {
+            //        Console.WriteLine("Numero equivocado. ");
+            //    }
+            //}
+            //while (numCeros >= 0);
+
+            //for (int i = 0; i < ceros.Length; i++)
+            //{
+            //    Console.WriteLine(i + "\t" + ceros[i]);
+            //}
+            //Console.ReadLine();
+
+
+            //Crear un array de 10 valores. Poner el valor 1 en cada una de la posición.
+            //Pedir al usuario que introduzca un número entre 0 y 9. 
+            //Cada vez que introduzca un valor entre 0 y 9, 
+            //mostrar el valor de esa posición del array, y modificarlo multiplicando por 2.
+
+
+            //int numCeros;
+
+
+            //int[] ceros = new int[10];
+            //for (int i = 0; i < ceros.Length; i++)
+            //{
+            //    ceros[i] = 1;
+            //}
+
+            //do
+            //{
+            //    Console.WriteLine("Introduce un número entre el 0 y el 9. ");
+            //    numCeros = Int32.Parse(Console.ReadLine());
+            //    if (numCeros >= 0 && numCeros <= 9)
+            //    {
+            //        ceros[numCeros] = numCeros*ceros[numCeros];
+            //    }
+            //    else if (numCeros>9)
+            //    {
+            //        Console.WriteLine("Número no válido. ");
+            //    }
+
+            //}
+            //while (numCeros >= 0);
+            //for (int i = 0; i < ceros.Length; i++)
+            //{
+            //    Console.WriteLine(i + "\t" + ceros[i]);
+            //}
+            //Console.ReadLine();
+
+            //Programa que lee las edades de 20 alumnos (validado entre 18 y 35), 
+            //las almacena en un array y calcula y escribe su media
+            //(para probar, se pueden generar aleatoriamente entre 18 y 35)
+
+            //int[] edades = new int[20];
+
+
+
+            //for (int i = 0; i < edades.Length; i++)
+            //{
+
+            //    Random random = new Random();
+            //    int contEdades = random.Next(18,35);
+            //    edades[i] = random.Next(18, 35);
+
+
+            //}
+            //Console.WriteLine(edades.Min());
+            //Console.ReadLine();
+
+
+
+
+            //Cargar una tabla de 20 componentes enteros y calcular la suma de los componentes de posición par
+            //y  el producto de los componentes de posición impar. Los valores se generarán aleatoriamente entre 1 y 100.
+
+
+            
+
+
 
 
         }
