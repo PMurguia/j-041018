@@ -251,23 +251,41 @@ namespace j_041018_arrays
             //Console.WriteLine();
             //Console.ReadLine();
 
-            
+
 
 
             //Cargar una tabla de 20 elementos donde cada elemento almacenará un valor entre 1 y 9 (genéralos de forma aleatoria) y escribir,
             //además del contenido de la tabla, la cantidad de 1, cantidad de 2, cantidad de 3…, cantidad de 9 almacenados en ella.
 
-            int[] elem = new int[20];
-            int[] elemNum = new int[9];
-            Random elemRandom = new Random();
+            //int[] elem = new int[20];
+            //int[] elemNum = new int[9];
 
-            for (int i = 0; i < elem.Length; i++)
-            {
-                Console.WriteLine(elem[i] = elemRandom.Next(1, 9));
-            }
+            //Random elemRandom = new Random();
+
+            //for (int primerArray = 0; primerArray < elem.Length; primerArray++)
+            //{
+
+            //        elem[primerArray] = elemRandom.Next(1, 10);
+            //        int num = elem[primerArray];
+            //        elemNum[num-1]++; 
+            //}
+            //for (int segundoArray = 0; segundoArray < elemNum.Length; segundoArray++)
+            //{
+
+            //    Console.WriteLine((segundoArray + 1) + ":\t " + elemNum[segundoArray]);
+            //}
+            //Console.ReadLine();
+
+
+            int[] calif = new int[20];
+            string[] nombre = { "Alfredo J.G.", "Endika S.K.", "David T.E.", "Pilar L.A.", "Natalia R.K.", "Lorena A.R." };
+
+
+
+
             
-            
-            Console.ReadLine();
+
+
 
         }
     }
