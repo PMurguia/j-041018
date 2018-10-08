@@ -277,13 +277,101 @@ namespace j_041018_arrays
             //Console.ReadLine();
 
 
-            int[] calif = new int[20];
-            string[] nombre = { "Alfredo J.G.", "Endika S.K.", "David T.E.", "Pilar L.A.", "Natalia R.K.", "Lorena A.R." };
+
+            //Cargar dos tablas, una con los nombres y otra con las calificaciones de los N alumnos de una clase de Programación. 
+            //Rellenar arrays con el nombre del alumno y su nota validando entre 0 y 10.
+            //Calcular la media de la clase
+            //Escribir los alumnos cuya nota es mayor que la media.
+            //Calcular la nota máxima y quienes la han conseguido
+            //Calcular la nota mínima y quienes la han conseguido
+            //Mostrar la lista de alumnos junto con su nota correspondiente: 
+            //Nombre1 Apellido11 Apellido12 - Nota
+            //Nombre2 Apellido21 Apellido22 - Nota
+
+            //double[] calif = { 9.2, 9.4, 9.5, 5, 6, 8 };
+            //string[] nombre = { "Alfredo J.G.", "Endika S.K.", "David T.E.", "Pilar L.A.", "Natalia R.K.", "Lorena A.R." };
+
+            //Console.WriteLine("La media de la clase es : " + calif.Average());
+
+
+            //double mayorQueMedia, mayor, menor;
+            //int pos;
+            //mayorQueMedia = calif[0];
+            //mayor = calif[0];
+            //menor = calif[0];
+            //pos = 0; //Esta variable va a guardar la posición del Array para poder sacar el nombre de quien ha obtenido determinada calificación.
+            //for (int i = 0; i < nombre.Length; i++)
+            //{
+            //    if (calif[i] > calif.Average())
+            //    {
+            //        mayorQueMedia = calif[i];
+
+            //        Console.WriteLine(nombre[i] + ", nota mayor que la media. \t Nota: " + calif[i]);
+            //    }
+            //}
+            //Console.WriteLine();
+            //for(int f = 0; f < nombre.Length; f++)
+            //{
+            //    if (calif[f] > mayor)
+            //    {
+            //        mayor = calif[f];
+            //        pos = f;
+
+
+            //    }     
+            //}
+            //Console.WriteLine("La nota más alta (" + mayor + ") la ha sacado " + nombre[pos]);
+            //Console.WriteLine();
+            //for (int g = 0; g < nombre.Length; g++)
+            //{
+            //    if (calif[g] < menor)
+            //    {
+            //        menor = calif[g];
+            //        pos = g;
+            //    }
+            //}
+            //Console.WriteLine("La nota más baja (" + menor + ") la ha sacado " + nombre[pos]);
+            //Console.WriteLine();
+            //Console.WriteLine("Listado de alumnos y calificaciones.");
+            //Console.WriteLine("------------------------------------ \n");
+            //for(int h = 0; h < nombre.Length; h++)
+            //{
+            //    Console.WriteLine("Nombre: " + nombre[h] + "\t Nota: " + calif[h]);
+            //}
+            //Console.ReadLine();
+            //Console.WriteLine();
+
+            //Crear un array de dos dimensiones, de 5 posiciones cada una.
+            //Rellenar los valores con 0.Pedir al usuario dos números, utilizar eso como la posición de la 1 dimensión y la 2 dimensión
+            //y poner un 1 en esa posición.Mostrar el array(en filas y columnas) en pantalla(deberían ser todo 0 menos un 1).
+
+            int[,] tabla;
+            int num1;
+            int num2;
+
+            Console.WriteLine("Dame un número del 1 al 5. ");
+            num1 = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Dame otro, también del 1 al 5. ");
+            num2 = Int32.Parse(Console.ReadLine());
+            Console.WriteLine();
+
+            tabla= new Int32[num1, num2];
+            for(int i = 0; i <= num1-1; i++)
+            {
+                for (int j = 0; j <= num2-1; j++)
+                {
+                    
+                    Console.WriteLine("Fila: {0} Columna: {1} dato {2}", (i + 1), (j + 1), tabla[num1, num2]);
+
+                }
+            }
+            Console.ReadLine();
+           
 
 
 
 
-            
+
 
 
 
